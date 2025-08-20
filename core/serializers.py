@@ -31,3 +31,4 @@ class MoneyActionSerializer(serializers.Serializer):
     class TransferSerializer(serializers.Serializer):
         to_username = serializers.CharField()
         amount = serializers.DecimalField(max_digits=12, decimal_places=2)
+        # username
